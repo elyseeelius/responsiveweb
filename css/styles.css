@@ -141,12 +141,29 @@ table {
 	box-sizing: border-box;
 }
 /*for small screen*/
-@media (min-width:320px) {
+
+.skill{
+		font-size:100px;
+		margin:20px auto;
+		margin-bottom:10px;
+}
+		
+.skills{
+	font-size:1.5em;
+	border-top:2px solid #fff;
+	padding-top:50px;
+	text-transform: uppercase;
+}
+	
+
+
+
 	body {
 		text-align: center;
 		background-color: #6C929F;
 		color: white;
 		font-family: 'Exo', sans-serif;
+		min-width:300px;
 	}
 
 	h1 {
@@ -283,7 +300,7 @@ table {
 		font-size: 1em;
 		text-transform: uppercase;
 	}
-}
+
 
 /* This is style for the tablet */
 
@@ -372,6 +389,22 @@ table {
 	.right {
 		display: none;
 	}
+	.skill{
+		font-size:100px;
+		margin:20px auto;
+		padding: 50px;
+		display: inline-block;
+		padding-bottom: 0;
+    }
+		
+	h2.skills{
+		font-size:1.5em;
+		padding-top:50px;
+		text-transform: uppercase;
+		
+		overflow: hidden;
+
+		}
 }
 
 /* This is style for the computer  */
@@ -450,6 +483,20 @@ table {
 		color: #9f7c6c;
 	}
 
+	.skill{
+		font-size:300px;
+		margin:0px auto;
+		padding: 50px;
+		display: inline-block;
+		padding-bottom: 0;
+		
+    }
+		
+	h2.skills{
+		font-size:1.5em;
+		padding-top:50px;
+		text-transform: uppercase;
+		overflow: hidden;
 
-
+		}
 }
